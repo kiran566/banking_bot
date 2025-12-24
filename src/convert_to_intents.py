@@ -30,4 +30,4 @@ final_data = {"intents": intents}
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(final_data, f, indent=2)
 
-print("✅ intents.json created successfully")
+print(" intents.json created successfully")

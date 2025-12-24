@@ -5,4 +5,5 @@ numpy
 pandas
 matplotlib
 seaborn
+pickle 
 notebook

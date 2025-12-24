@@ -1,6 +1,38 @@
 {
   "intents": [
     {
+  "tag": "greeting",
+  "patterns": [
+    "hi",
+    "hello",
+    "hey",  
+    "good morning",
+    "good evening",
+    "hi there",
+    "hello bot"
+  ],
+  "responses": [
+    "Hello! How can I help you today?",
+    "Hi there! What banking information do you need?",
+    "Hey! How can I assist you?"
+  ]
+},
+{
+  "tag": "goodbye",
+  "patterns": [
+    "bye",
+    "goodbye",
+    "see you",
+    "exit",
+    "quit"
+  ],
+  "responses": [
+    "Goodbye! Have a nice day 😊",
+    "Thanks for visiting. Bye!",
+    "See you again!"
+  ]
+},
+    {
       "tag": "accounts_faq",
       "patterns": [
         "What are the documents required for opening a Current Account of a sole proprietorship firm",
