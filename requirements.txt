@@ -5,5 +5,7 @@ numpy
 pandas
 matplotlib
 seaborn
+json
 pickle 
+sys
 notebook
