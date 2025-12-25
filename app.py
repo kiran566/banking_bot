@@ -61,7 +61,5 @@ def chat():
     reply = get_response(intent)
 
     return jsonify({"reply": reply})
-
-
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()

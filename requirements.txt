@@ -8,4 +8,5 @@ seaborn
 json
 pickle 
 sys
+gunicorn
 notebook
